@@ -1,0 +1,49 @@
+/* Your existing styles */
+body {
+    font-family: 'Rosales', sans-serif;
+    background-color: #ffb3cb;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 2rem;
+    color: #8d7f84;
+}
+
+.explanation {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.button {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #8d7f84;
+    color: #ffb3cb;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+    background-color: #ffb3cb;
+    color: #8d7f84;
+}
