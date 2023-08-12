@@ -1,4 +1,4 @@
-/* Your existing styles */
+/* styles.css */
 body {
     font-family: 'Rosales', sans-serif;
     background-color: #ffb3cb;
@@ -35,13 +35,28 @@ header {
 .button {
     display: inline-block;
     margin: 5px;
-    padding: 10px 20px;
+    padding: 20px; /* Adjust padding for square buttons */
+    width: 120px; /* Add width for square buttons */
+    height: 120px; /* Add height for square buttons */
     border-radius: 20px;
-    background-color: #8d7f84;
-    color: #ffb3cb;
+    text-align: center;
+    line-height: 1.5; /* Adjust line height for centered text */
     text-decoration: none;
     transition: background-color 0.3s, color 0.3s;
 }
+
+/* Apply different pastel colors for each button */
+.button:nth-child(1) {
+    background-color: #9ab3f5; /* Pastel Blue */
+    color: #fffeb3; /* Pastel Yellow */
+}
+
+.button:nth-child(2) {
+    background-color: #c4e0e5; /* Pastel Teal */
+    color: #ffa3b3; /* Pastel Pink */
+}
+
+/* Add more button styles for additional buttons if needed */
 
 .button:hover {
     background-color: #ffb3cb;
