@@ -1,64 +1,59 @@
 /* styles.css */
 body {
-    font-family: 'Rosales', sans-serif;
-    background-color: #ffb3cb;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+  font-family: 'Rosales', sans-serif;
+  background-color: #ffb3cb;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 header {
-    text-align: center;
-    margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .title {
-    font-size: 2rem;
-    color: #8d7f84;
+  font-size: 2rem;
+  color: #8d7f84;
 }
 
 .explanation {
-    text-align: center;
-    margin-bottom: 30px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .buttons {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .button {
-    display: inline-block;
-    margin: 5px;
-    padding: 20px; /* Adjust padding for square buttons */
-    width: 120px; /* Add width for square buttons */
-    height: 120px; /* Add height for square buttons */
-    border-radius: 20px;
-    text-align: center;
-    line-height: 1.5; /* Adjust line height for centered text */
-    text-decoration: none;
-    transition: background-color 0.3s, color 0.3s;
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 20px;
+  width: 150px;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
 }
 
-/* Apply different pastel colors for each button */
-.button:nth-child(1) {
-    background-color: #9ab3f5; /* Pastel Blue */
-    color: #fffeb3; /* Pastel Yellow */
+.button:nth-child(odd) {
+  background-color: #f9b5ac; /* Pastel Pink */
+  color: #394240;
 }
 
-.button:nth-child(2) {
-    background-color: #c4e0e5; /* Pastel Teal */
-    color: #ffa3b3; /* Pastel Pink */
+.button:nth-child(even) {
+  background-color: #bee3db; /* Pastel Blue */
+  color: #394240;
 }
-
-/* Add more button styles for additional buttons if needed */
 
 .button:hover {
-    background-color: #ffb3cb;
-    color: #8d7f84;
+  background-color: #FFD700; /* Gold */
+  color: #394240;
 }
