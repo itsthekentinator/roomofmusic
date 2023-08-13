@@ -35,21 +35,16 @@ header {
 .button {
   display: inline-block;
   margin: 5px;
-  padding: 10px 20px;
   width: 150px;
+  height: 150px; /* Set the height to match the width */
   border-radius: 20px;
   text-align: center;
   text-decoration: none;
   transition: background-color 0.3s, color 0.3s;
-}
-
-.button:nth-child(odd) {
-  background-color: #f9b5ac; /* Pastel Pink */
-  color: #394240;
-}
-
-.button:nth-child(even) {
-  background-color: #bee3db; /* Pastel Blue */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #C9A9A6; /* Desired color */
   color: #394240;
 }
 
